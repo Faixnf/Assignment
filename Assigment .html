@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.tik {font-size:100px;
+		color:blue;
+		}
+	
+	</style>
+</head>
+
+<body>
+
+<!-- Discount Callculation !--> 
+	
+<script type="text/javascript">
+a=parseInt(prompt("Total Price "));	
+b=parseInt(prompt("Enter Discount %"));
+g=a/13;
+t=a+g;
+c=a/100*b;
+d=a-c;
+	
+	if (b>=0 && b<=90)
+		{
+	document.write("<h1> Price = "+ a + " <h1> GST 13%= " + g+" <h1> Total Amount ="+ t +"<h1> You Got " +b +"% Discount. <h1> Discounted Amout = "+ c +" <h1> Amout to pay = " + d ) ;
+		}
+	else { document.write("<h1> You Can't Get More then 90% Discount. ")
+		 }
+	
+	</script> 
+		
+	<!-- Nested If else !--> 
+	<!--
+<script type="text/javascript">
+a=parseInt(prompt("Enter Obtained Marks"));
+b=parseInt(prompt("Enter Total Marks"));
+c=a/b*100;
+	
+	if ( a>=0 && a<=1400 || b>=0 && b<=1400)
+		{
+
+	if ( a <= b ||  b>=a )
+		{
+	
+if (c < 33)
+{
+document.write("<h1> Your Percentage is" + c + "You are Fail</h1>");
+}
+else if (c >= 33 && c < 40)
+{
+	document.write("<h1> Your Percentage is" + c + "You are Pass in less markes & Your Grade is C </h1> ");
+}
+
+else if (c >= 50 && c < 59)
+{
+	document.write("<h1> Your Percentage is" + c + "You are Pass & Your Grade is D </h1> ");
+}				
+	
+	
+else if (c >= 60 && c < 69)
+{
+	document.write("<h1> Your Percentage is " + c + "% Great Job. Your Grade is B </h1> ");
+}	
+else if (c >= 70 && c < 79)
+{
+	document.write("<h1> Your Percentage is " + c + "% Exellent. Your Grade is A </h1> ");
+}	
+
+else if (c >= 80 && c < 99)
+{
+	document.write("<h1> Your Percentage is " + c + "% Supper Dupper . Your Grade is A+ </h1> ");
+}	
+else if (c == 100)
+{
+	document.write("<h1> Your Percentage is " + c + " % <span class='aaa'> Wow Your Rare Talent :-D </span> Your Grade is AA++ </h1>");
+}				
+
+else
+{
+	document.write( " <h1> Enter Mehran </h1>")
+}
+		}
+	else{
+		document.write( " <span class='mehran'> Obtained Marks Can't be heigher then Total Marks </spain>")
+	}
+		}
+	else
+		{ document.write( " <span class='tik'> Highest Marks are 1400. You have Entered "+a+" Obtained Marks and "+b+" Total Marks. Please Enter Ankhen Khol ke  </span>" )
+		}
+
+</script>	
+    -->
+</body>
+</html>
+
+
+
+
+
+
